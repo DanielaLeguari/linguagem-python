@@ -1,0 +1,107 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Cópia de AULA 03- PYTHON",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyNeffdPTVdGj73mhNMoX2S/",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/DanielaLeguari/linguagem-python/blob/main/C%C3%B3pia_de_AULA_03_PYTHON\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Condicional simples"
+      ],
+      "metadata": {
+        "id": "geATdSOXy6Xp"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = int(input('Digite o valor para o primeiro número. '))\n",
+        "y = int(input('Digite o valor para o segundo número. '))\n",
+        "if (x > y):\n",
+        "  print('O primeiro valor é maior que o segundo.')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IGY2jHbxy8Ij",
+        "outputId": "569847be-3830-4c32-87bd-d26b0fcdd736"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o valor para o primeiro número. 8\n",
+            "Digite o valor para o segundo número. 7\n",
+            "O primeiro valor é maior que o segundo.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Condição composta"
+      ],
+      "metadata": {
+        "id": "fTc6usCH0amU"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# par ou impar\n",
+        "x = int(input('Digite um valor inteiro.: '))\n",
+        "if (x % 2 == 0):\n",
+        "  print('O número é par')\n",
+        "else:\n",
+        "  print('O número é ímpar.')\n"
+      ],
+      "metadata": {
+        "id": "BExwfQaU0cb9",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "0e69de52-94fe-48d1-a6f0-7e74310d70dc"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite um valor inteiro.: 7\n",
+            "O número é ímpar.\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
